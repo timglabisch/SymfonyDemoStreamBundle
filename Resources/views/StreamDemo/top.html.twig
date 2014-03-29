@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<style type="text/css">
+    div {
+        border:1px solid black;
+        padding:1px;
+    }
+
+    #info {
+        bottom:0;
+        right:0;
+        position:absolute;
+        padding: 20px;
+        font-size: 20px;
+    }
+</style>
+
+<div id="info">
+    just to notice reloads: {{ random(9999) }}
+</div>
+
+<div class="row show-grid">
+    <div class="col-md-1"><span id="_1">...</span></div>
+    <div class="col-md-1"><span id="_2">...</span></div>
+    <div class="col-md-1"><span id="_3">...</span></div>
+    <div class="col-md-1"><span id="_4">...</span></div>
+    <div class="col-md-1"><span id="_5">...</span></div>
+    <div class="col-md-1"><span id="_6">...</span></div>
+    <div class="col-md-1"><span id="_7">...</span></div>
+    <div class="col-md-1"><span id="_8">...</span></div>
+    <div class="col-md-1"><span id="_9">...</span></div>
+    <div class="col-md-1"><span id="_10">...</span></div>
+    <div class="col-md-1"><span id="_11">...</span></div>
+    <div class="col-md-1"><span id="_12">...</span></div>
+</div>
+<div class="row show-grid">
+    <div class="col-md-8"><span id="_13">...</span></div>
+    <div class="col-md-4"><span id="_14">...</span></div>
+</div>
+<div class="row show-grid">
+    <div class="col-md-4"><span id="_15">...</span></div>
+    <div class="col-md-4"><span id="_16">...</span></div>
+    <div class="col-md-4"><span id="_17">...</span></div>
+</div>
+<div class="row">
+    <div class="col-md-6"><span id="_18">...</span></div>
+    <div class="col-md-6"><span id="_19">...</span></div>
+</div>
+
+

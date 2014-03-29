@@ -2,7 +2,7 @@
 
 ## Installation
 
-Download this repo to your src Directory
+Download this repo to your src/Tg/DemoStreamBundle directory
 
 Add to your AppKernel
 
